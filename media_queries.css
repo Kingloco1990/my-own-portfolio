@@ -185,3 +185,54 @@
         font-size: 1rem;
     }
 }
+
+
+@media screen and (max-width: 300px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    section {
+        margin: 1rem;
+        padding: 0%;
+    }
+
+    .about-pic-container {
+        width: 212px;
+        height: 275px;  
+    }
+
+    .contact-container {
+        width: 30vh;
+        margin: 0;
+    }
+
+    .about-info-container {
+        width: 30vh;
+    }
+
+    .contact-right {
+        padding: 0.5rem;
+    }
+
+    #contact a {
+        font-size: small;
+    }
+
+    .contact-icon-container {
+        left: 35%;
+    }
+
+    td {
+        font-size: small;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    footer p {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
