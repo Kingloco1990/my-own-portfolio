@@ -187,7 +187,7 @@
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     .logo {
         font-size: 1.5rem;
     }
