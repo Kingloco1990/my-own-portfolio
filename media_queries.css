@@ -1,0 +1,187 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    #profile {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .profile-pic-container {
+        order: 1;
+    }
+
+    .profile-container {
+        order: 2;
+    }
+
+    #about {
+        height: 100vh;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-pic-container {
+        width: 307px;
+        height: 409px;
+    }
+
+    .about-info-container {
+        width: 70vh;
+    }
+
+    .project-info-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .contact-left {
+        display: none;
+    }
+
+    .contact-right {
+        flex-basis: 100%;
+    }
+
+    .contact-icon-container {
+        left: 45%;
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    section {
+        margin: 3rem;
+        padding: 0%;
+    }
+
+    #profile {
+        flex-direction: column;
+        gap: 2rem;
+        height: 80vh;
+    }
+
+    .profile-pic-container {
+        order: 1;
+        width: 201px;
+        height: 268px;
+    }
+
+    .profile-container {
+        order: 2;
+    }
+
+    .profile-text h1 {
+        font-size: 2rem;
+    }
+
+    #about, #experience, #projects {
+        margin-bottom: 5rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-pic-container {
+        width: 288px;
+        height: 383px;
+    }
+
+    .about-info-container {
+        width: 55vh;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .experience-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .experience-container h2 {
+        text-align: center;
+    }
+
+    .project-info-container {
+        flex-wrap: wrap;
+    }
+
+    #projects .btn {
+        width: 6rem;
+    }
+
+    .project-specific-container h2 {
+        font-size: 1.2rem;
+    }
+
+    #contact {
+        height: auto;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        height: 40vh;
+    }
+
+    .contact-left {
+        display: none;
+    }
+
+    .contact-right {
+        flex-basis: 100%;
+    }
+
+    .contact-icon-container {
+        left: 40%;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer {
+        height: 40vh;
+        margin-bottom: 2rem;
+    }
+
+    footer nav {
+        height: 30vh;
+    }
+
+    footer .desktop-nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    footer a {
+        font-size: 1.2rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
