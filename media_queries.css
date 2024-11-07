@@ -193,6 +193,57 @@
     }
 
     section {
+        margin: 1.5rem;
+        padding: 0%;
+    }
+
+    .about-pic-container {
+        width: 212px;
+        height: 275px;  
+    }
+
+    .contact-container {
+        width: 40vh;
+        margin: 0;
+    }
+
+    .about-info-container {
+        width: 40vh;
+    }
+
+    .contact-right {
+        padding: 1rem;
+    }
+
+    #contact a {
+        font-size: medium;
+    }
+
+    .contact-icon-container {
+        left: 40%;
+    }
+
+    td {
+        font-size: medium;
+    }
+
+    footer a {
+        font-size: 1.2rem;
+    }
+
+    footer p {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    section {
         margin: 1rem;
         padding: 0%;
     }
