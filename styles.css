@@ -139,6 +139,8 @@ article p {
     list-style: none;
     top: 150%;
     right: 0;
+    background-color: white;
+    padding: 1rem;
 }
 
 .hamburger-menu-links.open {
@@ -445,7 +447,7 @@ tr td:first-child {
     background-color: white;
 }
 
-.contat-icon {
+.contact-icon {
     cursor: default;
     width: 40px;
     height: 40px;
