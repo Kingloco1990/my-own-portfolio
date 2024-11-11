@@ -187,7 +187,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
     .logo {
         font-size: 1.5rem;
     }
@@ -212,7 +212,7 @@
     }
 
     .contact-right {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     #contact a {
@@ -238,13 +238,13 @@
 }
 
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 380px) {
     .logo {
         font-size: 1.5rem;
     }
 
     section {
-        margin: 1rem;
+        margin: 1.5rem;
         padding: 0%;
     }
 
@@ -259,24 +259,26 @@
     }
 
     .about-info-container {
-        width: 30vh;
+        width: 45vh;
     }
 
     .contact-right {
-        padding: 0.5rem;
+        padding: 1rem;
     }
 
     #contact a {
-        font-size: small;
+        font-size: medium;
     }
 
     .contact-icon-container {
         left: 35%;
     }
 
-    td {
-        font-size: small;
+    .contact-icon {
+        width: 30px;
+        height: 30px;
     }
+
 
     footer a {
         font-size: 1rem;
