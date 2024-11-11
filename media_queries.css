@@ -187,7 +187,7 @@
 }
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 435px) {
     .logo {
         font-size: 1.5rem;
     }
@@ -263,7 +263,7 @@
     }
 
     .contact-right {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     #contact a {
@@ -278,7 +278,6 @@
         width: 30px;
         height: 30px;
     }
-
 
     footer a {
         font-size: 1rem;
